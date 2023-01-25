@@ -12,7 +12,10 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table class="table">
+<div class="table-responsive container justify-content-center">
+	
+	<table class="table table-hover">
+		<caption>List of all transactions</caption>
         <thead>
        <tr class="table-primary trow">
         <th scope="col">#</th>
@@ -40,12 +43,16 @@
                 <td>Ottogg</td>
                 <td>2000</td>
               </tr>
-              <tr class="table-group-divider">
-                <td colspan="3" id="total">total</td>
-                <td class="font-monospace text-end fw-bold">4500</td>
-              </tr>
         </tbody>
+<tfoot class="table-light">
+	
+              <tr >
+                <td id="total" scope="row" colspan="3" class="font-monospace text-end fw-bold" >total</td>
+                <td class="fw-bold">4500</td>
+              </tr>
+</tfoot>
     </table>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
