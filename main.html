@@ -4,48 +4,48 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>   
+    <script src =  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div id="full"><div id="head"><thead>
-        <th class="one">
-            #
-        </th>
-        <th class="one">
-            From
-        </th>
-        <th class="one">
-            To
-        </th>
-        <th class="one">
-            Amount($)
-        </th>
-    </thead></div>
-    <div>
+	<table class="table">
+        <thead>
+       <tr class="table-primary trow">
+        <th scope="col">#</th>
+        <th scope="col">From</th>
+        <th scope="col">To</th>
+        <th scope="col">Amount($)</th>
+       </tr>
+        </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <th scope="row">1</th>
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>1000</td>
-            </tr><br>
-            <tr>
-                <td>2</td>
-                <td>Marh</td>
-                <td>Ottaa</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>afkkg</td>
+                <td>Ott</td>
                 <td>1500</td>
-            </tr><br>
-            <tr>
-                <td>3</td>
-                <td>Markaa</td>
-                <td>Ottoama</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Markdd</td>
+                <td>Ottogg</td>
                 <td>2000</td>
-            </tr>
+              </tr>
+              <tr class="table-group-divider">
+                <td colspan="3" id="total">total</td>
+                <td class="font-monospace text-end fw-bold">4500</td>
+              </tr>
         </tbody>
-    </div>
     </table>
-    <div id="total">Total 4000</div></div>
     <script type="text/javascript" src="./script.js">
 </script>
 

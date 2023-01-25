@@ -1,17 +1,7 @@
-#head{
-    color: white;
-    background-color: black;
-    width: 300px;
-}
-.one{
-    justify-content: space-evenly;
+.trow{
+   color: white;
+   background-color: black;
 }
 #total{
-    text-align: center;
-    font-weight: bold;
-    font:monospace;
+   text-align: end;
 }
-#full{
-    width: 300px;
-}
-/* Your CSS Code here. */
